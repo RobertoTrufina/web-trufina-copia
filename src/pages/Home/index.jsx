@@ -13,6 +13,8 @@ function Home() {
   return (
     <div className="home-container">
 
+      <h1>TESTE</h1>
+
       <header className="header-content">
         <img src={logoTrufina} />
 
