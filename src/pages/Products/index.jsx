@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../../components/Header";
 
 export default function Products() {
     return (
-        <h1>PRODUTOS</h1>
+        <>
+            <Header />
+            <h1>PRODUTOS</h1>
+        </>
+
     )
 }

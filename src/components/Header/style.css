@@ -1,0 +1,37 @@
+.btn-primary {
+    --bs-btn-active-bg: none;
+}
+
+.img-logo {
+    width: 130px;
+    margin: 10px;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+    color: var(--bs-dropdown-link-color);
+}
+
+.group-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e3403;
+    flex-wrap: wrap;
+    padding: 5px 100px;
+}
+
+.group-btn Button {
+    background-color: #7e3403;
+    border-radius: 0px;
+    border: none;
+}
+
+.group-btn button:hover {
+    background-color: #9e4204;
+}
+
+.content-search {
+    display: flex;
+    align-items: center;
+}
