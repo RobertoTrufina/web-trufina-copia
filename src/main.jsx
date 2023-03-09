@@ -1,13 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-import './pages/Home/index'
+import './pages/Home/index';
+import ProjectRoute from './routes';
 
-import Home from './pages/Home/index'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home />
+    <ProjectRoute />
   </React.StrictMode>,
 )

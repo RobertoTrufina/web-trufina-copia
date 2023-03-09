@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +26,6 @@ function Home() {
 
     <>
 
-
       <div id='container'>
         <header className='group-btn'>
 
@@ -37,13 +38,19 @@ function Home() {
             {/* Navbar */}
             <ButtonGroup>
               <Button >Home</Button>
+
               <DropdownButton as={ButtonGroup} title="Nossos Produtos" id="bg-nested-dropdown">
-                <Dropdown.Item eventKey="1" >Trufas</Dropdown.Item>
+                <Dropdown.Item eventKey="1" >
+                  <Link to="/produtos">Trufas</Link>
+                </Dropdown.Item>
+
                 <Dropdown.Item eventKey="2">Geleias</Dropdown.Item>
                 <Dropdown.Item eventKey="3">Tortas</Dropdown.Item>
                 <Dropdown.Item eventKey="4">Brownies</Dropdown.Item>
               </DropdownButton>
-              <Button>Fale Conosco</Button>
+              <Link to="/fale-conosco">
+                <Button>Fale Conosco </Button>
+              </Link>
             </ButtonGroup>
           </div>
 
@@ -75,7 +82,7 @@ function Home() {
         {/* product carousel */}
         <CarouselProducts />
 
-      </div>
+      </div >
 
       <footer>
 
@@ -93,7 +100,7 @@ function Home() {
           </div>
         </div>
 
-        <p>© Copyright 2023. Todos os direitos reservados. Trufina Chocollates Eireli <br /> CNPJ 23.129.040/0001-33
+        <p>© Copyright 2023. Todos os direitos reservados. Trufina Chocollates Eireli CNPJ 23.129.040/0001-33
           Desenvolvedor Roberto Pinto
 
         </p>
