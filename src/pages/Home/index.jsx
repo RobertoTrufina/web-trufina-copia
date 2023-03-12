@@ -25,7 +25,7 @@ function Home() {
       <CarouselProducts />
 
       <Footer />
-      
+
     </div >
 
 
