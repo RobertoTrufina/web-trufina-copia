@@ -24,15 +24,19 @@ export default function Contact() {
 
                 <div className="content-contact">
 
-                    <form className="form-contact">
+                    <div className="wrap-contact">
                         <h1>CONTATO</h1>
-                        <input type="text" placeholder="Nome" required />
-                        <input type="email" placeholder="Email" required />
-                        <textarea name="text" placeholder="Mensagem" id="" cols="30" rows="7" ></textarea>
-                        <Button variant="secondary">ENVIAR</Button>{' '}
+                        <form className="form-contact">
+                            <input type="text" placeholder="Nome" required />
+                            <input type="email" placeholder="Email" required />
+                            <textarea name="text" placeholder="Mensagem" id="" cols="30" rows="5" ></textarea>
+                            <Button variant="secondary">ENVIAR</Button>{' '}
 
-                        <img className="img-contact" src={contactUs} />
-                    </form>
+                            <img className="img-contact" src={contactUs} />
+                        </form>
+
+                    </div>
+
 
                     <div className="form-img-chocolate">
                         <img className="img-chocolate" src={caldaChocolate} />

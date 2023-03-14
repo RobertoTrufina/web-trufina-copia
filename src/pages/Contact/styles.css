@@ -1,29 +1,41 @@
-.container {}
-
-.wrap-contact {}
 
 .content-contact {
     display: flex;
 }
 
-.form-contact {
-    width: 60%;
-    background-color: aquamarine;
+.wrap-contact {
+    width: 100%;
+
+    text-align: center;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     align-items: center;
-    margin: 20px;
+    gap: 1rem;
+
+}
+
+.wrap-contact h1 {
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.form-contact {
+    width: 55%;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
-.form-contact h1 {
-    font-weight: bolder;
-    font-size: 25px;
-    padding-top: 20px;
-}
 
 .form-contact input {
-    width: 70%;
+    width: 90%;
+    font-size: 16px;
     padding: 8px;
     border: 1px solid #c4f0f0;
     border-radius: 8px;
@@ -31,11 +43,23 @@
 }
 
 .form-contact textarea {
-    width: 70%;
+    width: 90%;
+    font-size: 16px;
     padding: 8px;
     border: 1px solid #c4f0f0;
     border-radius: 8px;
     outline: none;
+}
+
+.btn-secondary {
+    width: 90%;
+    font-size: 14px;
+    background-color: #18CE08;    
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #18CE08aa;
 }
 
 .img-contact {
@@ -47,9 +71,9 @@
     width: 100%;
     display: flex;
     justify-content: end;
+
 }
 
 .img-chocolate {
-    width: 50%;
-  
+    width: 60%;
 }
