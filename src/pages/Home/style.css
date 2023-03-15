@@ -6,7 +6,7 @@
 }
 
 .img-logo {
-    width: 130px;
+    width: 80px;
     margin: 10px;
 }
 
@@ -16,12 +16,13 @@
 }
 
 .group-btn {
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #7e3403;
     flex-wrap: wrap;
-    padding: 5px 100px;
 }
 
 .group-btn Button {

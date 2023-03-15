@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../components/Header";
 import '../../global.css';
+import Header from "../../components/Header";
 import './style.css';
 
 
@@ -11,6 +11,7 @@ import CarouselProducts from '../../components/CarouselProducts';
 
 
 import Footer from "../../components/Footer";
+
 function Home() {
 
   return (
@@ -18,7 +19,8 @@ function Home() {
 
     <div id='container'>
 
-      <Header />
+      <Header/>
+
 
       <CarouselImg />
       <h3 className="text-best">Mais Vendidos</h3>

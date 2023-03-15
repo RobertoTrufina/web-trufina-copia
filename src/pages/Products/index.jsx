@@ -16,7 +16,7 @@ export default function Products() {
             <h3 className="text-best">Trufas</h3>
 
             {/* product carousel */}
-            <CarouselProducts />
+            <CarouselProducts/>
             <h3 className="text-best">Geleias</h3>
             <CarouselProducts />
 
