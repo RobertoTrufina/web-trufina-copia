@@ -39,8 +39,6 @@ export default function Header() {
                         </Dropdown.Item>
 
                         <Dropdown.Item eventKey="2">Geleias</Dropdown.Item>
-                        <Dropdown.Item eventKey="3">Tortas</Dropdown.Item>
-                        <Dropdown.Item eventKey="4">Brownies</Dropdown.Item>
                     </DropdownButton>
                     <Link to="/fale-conosco">
                         <Button>Fale Conosco </Button>

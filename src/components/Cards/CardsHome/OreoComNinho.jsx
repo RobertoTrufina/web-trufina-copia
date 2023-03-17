@@ -1,19 +1,18 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 // Bootstrap
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 
-import leite_ninho from "../../imgs/leite_ninho.png";
+import oreo_com_ninho from "../../../imgs/oreo_com_ninho.jpg"
 
 
 
-
-export default function LeiteNinho() {
+export default function OreoComNinho() {
     return (
         <div id="container-card">
             <div className="favorite">
-                <p>2º</p>
+            <p>3º</p>
                 <a href="#">
                     <BsHeart style={{
                         border: "1px solid",
@@ -29,7 +28,7 @@ export default function LeiteNinho() {
             <section className="card-product">
                 <div className="card-product-item">
 
-                    <img src={leite_ninho} />
+                    <img src={oreo_com_ninho} />
                     <div className="card-title">
                         <span className="card-img-title">Trufa de leite ninho <br />50g</span>
                     </div>

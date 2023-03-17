@@ -1,18 +1,18 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 // Bootstrap
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 
-import oreo_com_ninho from "../../imgs/oreo_com_ninho.jpg"
+import mms from "../../../imgs/mms.png";
 
 
 
-export default function OreoComNinho() {
+
+export default function Mms_prd() {
     return (
         <div id="container-card">
             <div className="favorite">
-            <p>3º</p>
                 <a href="#">
                     <BsHeart style={{
                         border: "1px solid",
@@ -28,9 +28,9 @@ export default function OreoComNinho() {
             <section className="card-product">
                 <div className="card-product-item">
 
-                    <img src={oreo_com_ninho} />
+                    <img src={mms} />
                     <div className="card-title">
-                        <span className="card-img-title">Trufa de leite ninho <br />50g</span>
+                        <span className="card-img-title">Trufa m&m´s <br />50g</span>
                     </div>
                     <div>
                         <span className="card-img-discount">R$ 4,00</span>

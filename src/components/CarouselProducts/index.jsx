@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Beijinho from '../CardsHome/beijinho';
+import Beijinho from '../Cards/CardsHome/Beijinho';
 
-import Brigadeiro from '../CardsHome/Brigadeiro';
-import Casadinho from '../CardsHome/Casadinho';
-import Cupuacu from '../CardsHome/Cupuacu';
-import LeiteNinho from '../CardsHome/LeiteNinho';
-import OreoComNinho from '../CardsHome/OreoComNinho';
+import Brigadeiro from '../Cards/CardsHome/Brigadeiro';
+import Cupuacu from '../Cards/CardsHome/Cupuacu';
+import LeiteNinho from '../Cards/CardsHome/LeiteNinho';
+import OreoComNinho from '../Cards/CardsHome/OreoComNinho';
+import Casadinho from '../Cards/CardsHome/Casadinho';
 
 import './style.css';
 
@@ -42,7 +42,7 @@ function CarouselProducts() {
                             <OreoComNinho />
                             <Cupuacu />
                             <Casadinho />
-                            <Beijinho />
+                            <Beijinho/>
                         </div>
                     </div>
                 </Carousel.Item>

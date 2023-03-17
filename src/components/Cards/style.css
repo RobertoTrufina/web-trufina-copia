@@ -1,0 +1,87 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+  #container-card {
+      height: 27rem;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      border-right: 1px dashed;
+      padding: 20px;
+      background-color: #fff;
+      width: 14rem;
+      margin: 0.5rem;
+  }
+
+  #container-card p {
+      font-size: 40px;
+      font-family: arial;
+      font-weight: bold;
+      position: absolute;
+      margin-right: 150px;
+      color: #532222;
+  }
+
+  .favorite {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .favorite a {
+      color: #532222;
+  }
+
+  section img {
+      width: 135px;
+  }
+
+  .card-product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+
+  }
+
+  .card-product-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .card-title {
+      text-align: center;
+      padding: 10px;
+
+
+
+  }
+
+  .card-img-discount {
+      margin-top: 30px;
+      text-decoration: line-through;
+      font-style: italic;
+  }
+
+  .card-img-price {
+      font-weight: bold;
+  }
+
+
+  .card-img-btn-cart {
+      margin-top: 15px;
+      background-color: #e4dfdf;
+      border: 1px solid #532e22;
+      border-radius: 10px;
+      padding: 5px 8px;
+  }
+
+  .card-img-btn-cart a {
+      text-decoration: none;
+      color: #532e22;
+  }
+
+  .btn-cart-content {
+      text-align: center;
+  }

@@ -1,20 +1,19 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 // Bootstrap
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 
-import brigadeiro from "../../imgs/brigadeiro.png";
+import cupuacu from "../../../imgs/cupuacu.png";
 
 
 
 
-export default function Brigadeiro() {
+export default function Cupuacu() {
     return (
         <div id="container-card">
-
             <div className="favorite">
-                <p>1º</p>
+                <p>4º</p>
                 <a href="#">
                     <BsHeart style={{
                         border: "1px solid",
@@ -30,9 +29,9 @@ export default function Brigadeiro() {
             <section className="card-product">
                 <div className="card-product-item">
 
-                    <img src={brigadeiro} />
+                    <img src={cupuacu} />
                     <div className="card-title">
-                        <span className="card-img-title">Trufa de brigadeiro <br />50g</span>
+                        <span className="card-img-title">Trufa de cupuaçu <br />50g</span>
                     </div>
                     <div>
                         <span className="card-img-discount">R$ 4,00</span>

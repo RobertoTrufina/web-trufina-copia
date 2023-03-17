@@ -1,18 +1,17 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 // Bootstrap
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 
-import beijinho from "../../imgs/beijinho.png";
+import beijinho from "../../../imgs/beijinho.png";
 
 
 
-export default function Beijinho() {
+export default function Beijinho_prd() {
     return (
         <div id="container-card">
             <div className="favorite">
-                <p>6º</p>
                 <a href="#">
                     <BsHeart style={{
                         border: "1px solid",
@@ -30,7 +29,7 @@ export default function Beijinho() {
 
                     <img src={beijinho} />
                     <div className="card-title">
-                        <span className="card-img-title">Trufa de beijinho <br />50g</span>
+                        <span className="card-img-title">Trufa beijinho <br />50g</span>
                     </div>
                     <div>
                         <span className="card-img-discount">R$ 4,00</span>

@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 // Bootstrap
-import CarouselProducts from "../../components/CarouselProducts";
+import CarouselProductsAll from "../../components/CarouselProductsAll";
 
 
 
@@ -16,9 +16,9 @@ export default function Products() {
             <h3 className="text-best">Trufas</h3>
 
             {/* product carousel */}
-            <CarouselProducts/>
-            <h3 className="text-best">Geleias</h3>
-            <CarouselProducts />
+            <CarouselProductsAll />
+            {/* <h3 className="text-best">Geleias</h3>
+            <CarouselProducts /> */}
 
             {/* Footer */}
             <Footer />

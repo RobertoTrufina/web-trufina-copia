@@ -1,19 +1,17 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 // Bootstrap
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 
-import cupuacu from "../../imgs/cupuacu.png";
+import oreo_com_ninho from "../../../imgs/oreo_com_ninho.jpg";
 
 
 
-
-export default function Cupuacu() {
+export default function OreoComNinho_prd() {
     return (
         <div id="container-card">
             <div className="favorite">
-            <p>4º</p>
                 <a href="#">
                     <BsHeart style={{
                         border: "1px solid",
@@ -29,9 +27,9 @@ export default function Cupuacu() {
             <section className="card-product">
                 <div className="card-product-item">
 
-                    <img src={cupuacu} />
+                    <img src={oreo_com_ninho} />
                     <div className="card-title">
-                        <span className="card-img-title">Trufa de cupuaçu <br />50g</span>
+                        <span className="card-img-title">Trufa óreo c/ ninho<br />50g</span>
                     </div>
                     <div>
                         <span className="card-img-discount">R$ 4,00</span>
