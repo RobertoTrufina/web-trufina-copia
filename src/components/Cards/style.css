@@ -1,15 +1,16 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
   #container-card {
-      height: 27rem;
+      margin: 0.5rem;
+      width: 14rem;
+      height: 22rem;
       box-sizing: border-box;
       font-family: 'Roboto', sans-serif;
       font-size: 14px;
       border-right: 1px dashed;
       padding: 20px;
       background-color: #fff;
-      width: 14rem;
-      margin: 0.5rem;
+      box-shadow: 4px 4px #dbd7d7
   }
 
   #container-card p {
@@ -31,15 +32,14 @@
   }
 
   section img {
-      width: 135px;
+      width: 6rem;
   }
 
   .card-product {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 10px;
-
+      padding: 2%;
   }
 
   .card-product-item {
@@ -47,15 +47,12 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 10px;
   }
 
   .card-title {
+      width: 100%;
       text-align: center;
       padding: 10px;
-
-
-
   }
 
   .card-img-discount {
@@ -70,6 +67,7 @@
 
 
   .card-img-btn-cart {
+      width: 65%;
       margin-top: 15px;
       background-color: #e4dfdf;
       border: 1px solid #532e22;

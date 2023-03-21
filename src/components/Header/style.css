@@ -1,4 +1,4 @@
-/* header  */
+header 
 .btn-primary {
     --bs-btn-active-bg: none;
 }
@@ -6,15 +6,6 @@
 .img-logo {
     width: 80px;
     margin: 10px;
-}
-
-.dropdown-item a {
-    text-decoration: none;
-    color: var(--bs-dropdown-link-color);
-}
-
-.dropdown-menu {
-    --bs-dropdown-link-active-bg: none;
 }
 
 .group-btn {
@@ -37,6 +28,15 @@
     background-color: #9e4204;
 }
 
+.dropdown-item a {
+    text-decoration: none;
+    color: var(--bs-dropdown-link-color);
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: none;
+}
+
 .content-search {
     display: flex;
     align-items: center;
@@ -48,8 +48,3 @@
     padding: 15px;
 }
 
-/* Carousel de Products */
-.cards-products {
-    display: flex;
-    flex-wrap: wrap;
-}

@@ -1,16 +1,15 @@
 import React from "react";
-import '../../global.css';
 import Header from "../../components/Header";
-import './style.css';
+import CarouselProductsHome from './../../components/CarouselProductsHome/index';
+import '../../global.css';
+import Footer from "../../components/Footer";
 
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselImg from '../../components/CarouselImg';
-import CarouselProducts from '../../components/CarouselProducts';
 
 
-import Footer from "../../components/Footer";
 
 function Home() {
 
@@ -19,13 +18,16 @@ function Home() {
 
     <div id='container'>
 
-      <Header/>
+      {/* Header */}
+      <Header />
 
-
+      {/* Images carousel */}
       <CarouselImg />
       <h3 className="text-best">Mais Vendidos</h3>
-      <CarouselProducts />
 
+
+      <CarouselProductsHome />
+      {/* Footer */}
       <Footer />
 
     </div >

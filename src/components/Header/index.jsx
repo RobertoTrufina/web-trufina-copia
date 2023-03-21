@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css'
 import { Link } from 'react-router-dom';
 
 
@@ -15,18 +16,17 @@ import logoTrufina from '../../imgs/logoTrufina.png';
 
 
 export default function Header() {
+
     return (
 
         <header className='group-btn'>
 
             {/* logo */}
-            <div>
-                <Link to="/">
-                    <img className='img-logo' src={logoTrufina} />
-                </Link>
-            </div>
-            <div>
+            <Link to="/">
+                <img className='img-logo' src={logoTrufina} />
+            </Link>
 
+            <div>
                 {/* Navbar */}
                 <ButtonGroup>
                     <Link to="/">
@@ -37,7 +37,6 @@ export default function Header() {
                         <Dropdown.Item eventKey="1" >
                             <Link to="/produtos">Trufas</Link>
                         </Dropdown.Item>
-
                         <Dropdown.Item eventKey="2">Geleias</Dropdown.Item>
                     </DropdownButton>
                     <Link to="/fale-conosco">
@@ -54,6 +53,7 @@ export default function Header() {
                         placeholder="Pesquisar"
                         className="me-2"
                         aria-label="Search"
+                        style={{ boxShadow: "0 0 0 0" }}
                     />
                     <Button style={{ background: "none" }}>
                         <BsSearch style={{ color: "#fff", fontSize: "20px" }} />

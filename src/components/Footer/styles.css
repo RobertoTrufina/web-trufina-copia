@@ -12,7 +12,7 @@ footer {
 }
 
 .footer-text-network {
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     font-weight: bold;
     font-size: 20px;

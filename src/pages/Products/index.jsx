@@ -17,8 +17,6 @@ export default function Products() {
 
             {/* product carousel */}
             <CarouselProductsAll />
-            {/* <h3 className="text-best">Geleias</h3>
-            <CarouselProducts /> */}
 
             {/* Footer */}
             <Footer />
