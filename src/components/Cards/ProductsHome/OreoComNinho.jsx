@@ -4,7 +4,7 @@ import "../style.css";
 // Bootstrap
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 
-import oreo_com_ninho from "../../../imgs/oreo_com_ninho.jpg"
+import oreo_com_ninho from "../../../imgs/oreo_com_ninho.jpg";
 
 
 
@@ -12,7 +12,7 @@ export default function OreoComNinho() {
     return (
         <div id="container-card">
             <div className="favorite">
-            <p>3º</p>
+                <p>3º</p>
                 <a href="#">
                     <BsHeart style={{
                         border: "1px solid",
@@ -30,7 +30,7 @@ export default function OreoComNinho() {
 
                     <img src={oreo_com_ninho} />
                     <div className="card-title">
-                        <span className="card-img-title">Trufa de leite ninho <br />50g</span>
+                        <span className="card-img-title">Trufa de óreo c/ ninho <br />50g</span>
                     </div>
                     <div>
                         <span className="card-img-discount">R$ 4,00</span>

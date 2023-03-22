@@ -9,7 +9,6 @@ header .btn-primary {
 
 .group-btn {
     width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,6 +39,16 @@ header .btn-primary {
 .content-search {
     display: flex;
     align-items: center;
+}
+
+.header-search-register {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search-register a {
+    text-decoration: none;
 }
 
 .text-best {

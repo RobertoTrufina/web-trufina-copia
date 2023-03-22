@@ -10,7 +10,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup/ ';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Form from 'react-bootstrap/Form';
-import { BsCart3, BsSearch } from 'react-icons/bs';
+import { BsCart3, BsPersonCircle, BsSearch } from 'react-icons/bs';
 
 import logoTrufina from '../../imgs/logoTrufina.png';
 
@@ -55,19 +55,26 @@ export default function Header() {
                     <Form.Control
                         type="search"
                         placeholder="Pesquisar"
-                        className="me-2"
+                        className="me-1"
                         aria-label="Search"
-                        style={{ boxShadow: "0 0 0 0" }}
+                        style={{ boxShadow: "0 0 0 0", width: "200px" }}
                     />
                     <Button style={{ background: "none" }}>
                         <BsSearch style={{ color: "#fff", fontSize: "20px" }} />
                     </Button>
                 </Form>
 
-                <div>
+                <div className="header-search-register">
+                    <Link to="/login">
+                        <Button style={{ background: "none", display: "flex" }}>
+                            <BsPersonCircle style={{ color: "#fff", fontSize: "22px", marginRight: "5px" }} />
+                            <span>Entrar</span>
+                        </Button>
+                    </Link>
                     <Button style={{ background: "none" }}>
                         <BsCart3 style={{ color: "#fff", fontSize: "22px" }} />
                     </Button>
+
                 </div>
             </div>
         </header>

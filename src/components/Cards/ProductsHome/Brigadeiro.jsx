@@ -31,7 +31,7 @@ export default function Brigadeiro() {
 
                     <img src={brigadeiro} />
                     <div className="card-title">
-                        <span className="card-img-title">Trufa de cupuaçu <br />50g</span>
+                        <span className="card-img-title">Trufa de brigadeiro <br />50g</span>
                     </div>
                     <div>
                         <span className="card-img-discount">R$ 4,00</span>

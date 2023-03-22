@@ -35,6 +35,11 @@
       width: 6rem;
   }
 
+  section img:hover {
+      background-color: #532e22;
+      border-radius: 120px;
+  }
+
   .card-product {
       display: flex;
       justify-content: center;
@@ -47,6 +52,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
   }
 
   .card-title {
