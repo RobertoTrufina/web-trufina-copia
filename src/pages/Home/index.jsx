@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../../components/Header";
-import CarouselProductsHome from './../../components/CarouselProductsHome/index';
-import '../../global.css';
 import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import '../../global.css';
+import CarouselProductsHome from './../../components/CarouselProductsHome/index';
 
 
 // Bootstrap
@@ -16,7 +16,7 @@ function Home() {
   return (
 
 
-    <div id='container'>
+    <div>
 
       {/* Header */}
       <Header />

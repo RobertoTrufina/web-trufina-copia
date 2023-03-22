@@ -7,7 +7,7 @@ import CarouselProductsAll from "../../components/CarouselProductsAll";
 
 
 
-export default function Products() {
+export default function Trufas() {
     return (
         <div id='container'>
 

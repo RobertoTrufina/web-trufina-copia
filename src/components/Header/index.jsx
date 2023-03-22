@@ -1,6 +1,6 @@
 import React from "react";
-import './style.css'
 import { Link } from 'react-router-dom';
+import './style.css';
 
 
 // Bootstrap
@@ -35,9 +35,13 @@ export default function Header() {
 
                     <DropdownButton as={ButtonGroup} title="Nossos Produtos" id="bg-nested-dropdown">
                         <Dropdown.Item eventKey="1" >
-                            <Link to="/produtos">Trufas</Link>
+                            <Link to="/trufas">Trufas</Link>
                         </Dropdown.Item>
-                        <Dropdown.Item eventKey="2">Geleias</Dropdown.Item>
+
+                        <Dropdown.Item eventKey="2">
+                            <Link to="/geleias">Geleias</Link>
+                        </Dropdown.Item>
+
                     </DropdownButton>
                     <Link to="/fale-conosco">
                         <Button>Fale Conosco </Button>

@@ -1,5 +1,4 @@
-header 
-.btn-primary {
+header .btn-primary {
     --bs-btn-active-bg: none;
 }
 
@@ -10,12 +9,13 @@ header
 
 .group-btn {
     width: 100%;
-    height: auto;
+    height: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #7e3403;
     flex-wrap: wrap;
+
 }
 
 .group-btn Button {
@@ -28,9 +28,9 @@ header
     background-color: #9e4204;
 }
 
-.dropdown-item a {
+.dropdown-item a{
     text-decoration: none;
-    color: var(--bs-dropdown-link-color);
+    color: black;
 }
 
 .dropdown-menu {
@@ -48,3 +48,18 @@ header
     padding: 15px;
 }
 
+@media (max-width:750px) {
+    .img-logo {
+        width: 120px;
+    }
+
+    .group-btn Button {
+        margin-bottom: 10px;
+    }
+
+    .content-search {
+        margin-bottom: 1.2rem;
+    }
+
+
+}

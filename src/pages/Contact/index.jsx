@@ -2,8 +2,8 @@ import React from "react";
 import Header from "../../components/Header";
 import "./styles.css";
 
-import caldaChocolate from "../../imgs/caldaChocolate.png";
 import contactUs from "../../imgs/contactUs.png";
+import contactUs2 from "../../imgs/contactUs2.png";
 
 
 // Bootstrap
@@ -14,16 +14,12 @@ import Footer from "../../components/Footer";
 export default function Contact() {
     return (
 
-        <div id="container">
+        <div>
 
             <Header />
 
-
             <div className="wrap-contact">
-
-
                 <div className="content-contact">
-
                     <div className="wrap-contact">
                         <h1>CONTATO</h1>
                         <form className="form-contact">
@@ -39,7 +35,7 @@ export default function Contact() {
 
 
                     <div className="form-img-chocolate">
-                        <img className="img-chocolate" src={caldaChocolate} />
+                        <img className="img-chocolate" src={contactUs2} />
                     </div>
                 </div>
             </div>

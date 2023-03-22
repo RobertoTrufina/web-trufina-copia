@@ -1,27 +1,26 @@
-
 .content-contact {
     display: flex;
+    width: 100%;
+    min-height: 78vh;
 }
 
 .wrap-contact {
     width: 100%;
-
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
-
 }
 
 .wrap-contact h1 {
-    margin-top: 20px;
     font-weight: bolder;
     font-size: 25px;
 }
 
 .form-contact {
-    width: 55%;
+    width: 270px;
     padding: 20px;
     background-color: aquamarine;
     border-radius: 10px;
@@ -54,7 +53,7 @@
 .btn-secondary {
     width: 90%;
     font-size: 14px;
-    background-color: #18CE08;    
+    background-color: #18CE08;
     border: none;
 }
 
@@ -64,16 +63,31 @@
 
 .img-contact {
     width: 50%;
-    height: auto;
 }
 
 .form-img-chocolate {
     width: 100%;
     display: flex;
-    justify-content: end;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .img-chocolate {
-    width: 60%;
+    width: 350px;
+    position: relative;
+}
+
+@media (max-width: 740px) {
+    .content-contact {
+        display: block;
+    }
+
+    .wrap-contact {
+        margin-top: 10px;
+    }
+
+    .img-chocolate {
+        width: 200px;
+        padding: 20px;
+    }
 }
