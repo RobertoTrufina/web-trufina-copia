@@ -12,13 +12,12 @@ export default function Login() {
             <Header />
             <h3 className="text-best">Login</h3>
 
-
-            <div className="content-login">
-                <div className="wrap-login">
-                    <p>E-mail ou CPF</p>
-                    <input type="text" />
-                    <button>Login / Cadastre-se</button>
-                </div>
+            <div className="content-form-login">
+                <form className="form-login">
+                    <p className="p-form-login">E-mail ou CPF</p>
+                    <input type="text" className="input-form-login" />
+                    <button className="button-form-login">Login/Cadastre-se</button>
+                </form>
             </div>
 
             <Footer />

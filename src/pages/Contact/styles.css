@@ -53,12 +53,12 @@
 .btn-secondary {
     width: 90%;
     font-size: 14px;
-    background-color: #18CE08;
+    background-color: #4CAF50;
     border: none;
 }
 
 .btn-secondary:hover {
-    background-color: #18CE08aa;
+    background-color: #3e8e41;
 }
 
 .img-contact {

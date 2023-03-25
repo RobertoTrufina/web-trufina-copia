@@ -1,4 +1,4 @@
-.content-form-login {
+.content-form-register {
   min-height: 35.5vh;
   display: flex;
   flex-direction: column;
@@ -6,9 +6,10 @@
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
+
 }
 
-.form-login {
+.form-register {
   background-color: #fff;
   width: 30rem;
   display: flex;
@@ -16,14 +17,10 @@
   align-items: center;
   border-radius: 10px;
   gap: 0.5rem;
+  padding: 25px;
 }
 
-.p-form-login {
-  margin-top: 30px;
-  font-size: 18px;
-}
-
-.input-form-login {
+.input-form-register {
   width: 25rem;
   padding: 5px;
   border: 1px solid #ccc;
@@ -32,7 +29,51 @@
   outline: none;
 }
 
-.button-form-login {
+.div-form-register {
+  width: 25rem;
+  font-size: 16px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  line-height: 2rem;
+}
+
+.checkbox-form-register {
+  width: 25rem;
+  display: flex;
+  justify-content: start;
+  line-height: 2rem;
+  gap: 5px;
+}
+
+.select-form-register {
+  width: 25rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.span-form-register {
+  width: 25rem;
+  font-size: 14px;
+}
+
+.checkbox-form-condition {
+  width: 25rem;
+  font-size: 14px;
+  display: flex;
+  align-items: baseline;  
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.button-form-register {
   width: 25rem;
   background-color: #4CAF50;
   color: #fff;
@@ -41,10 +82,9 @@
   font-size: 18px;
   cursor: pointer;
   padding: 5px;
-  margin-bottom: 30px;
 }
 
-.button-form-login:hover {
+.button-form-register:hover {
   background-color: #3e8e41;
 }
 

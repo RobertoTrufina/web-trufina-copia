@@ -8,6 +8,7 @@ import Home from './pages/Home/index';
 import Login from "./pages/Login";
 import Geleias from "./pages/Products/Geleias";
 import Products from "./pages/Products/Trufas";
+import Register from "./pages/register";
 
 
 export default function ProjectRoute() {
@@ -19,6 +20,7 @@ export default function ProjectRoute() {
                 <Route path="/geleias" element={<Geleias />} />
                 <Route path="/fale-conosco" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/cadastro" element={<Register />} />
             </Routes>
         </BrowserRouter>
     )
