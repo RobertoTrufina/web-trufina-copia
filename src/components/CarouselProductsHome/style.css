@@ -3,12 +3,36 @@
     background-color: aqua;
     flex-wrap: wrap;
 } */
+@import "react-alice-carousel/lib/alice-carousel.css";
 
+.items-carousel {
+    margin: 4%;
+    margin-bottom: 1%;
+}
+
+.item {
+    border: 0.2px solid #ccc;
+    height: 15rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.alice-carousel__prev-btn-item {
+    font-size: xx-large;
+}
+
+.alice-carousel__next-btn-item {
+    font-size: xx-large;
+}
 
 .card-product-home {
     width: 100%;
     gap: 3rem;
 }
+
 
 .card-product-item {
     width: 100rem;
@@ -53,6 +77,6 @@
 
 @media (max-width: 750px) {
     .w-100 {
-        width:200% !important;
+        width: 200% !important;
     }
 }

@@ -2,8 +2,9 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-// Bootstrap
-import CarouselProductsAll from "../../components/CarouselProductsAll";
+import AllProducts from "../../components/AllProducts";
+
+
 
 
 
@@ -16,7 +17,7 @@ export default function Trufas() {
             <h3 className="text-best">Trufas</h3>
 
             {/* product carousel */}
-            <CarouselProductsAll />
+            <AllProducts />
 
             {/* Footer */}
             <Footer />

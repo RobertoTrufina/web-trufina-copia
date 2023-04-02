@@ -35,10 +35,10 @@
       width: 6rem;
   }
 
-  section img:hover {
+  /* section img:hover {
       background-color: #532e22;
       border-radius: 120px;
-  }
+  } */
 
   .card-product {
       display: flex;

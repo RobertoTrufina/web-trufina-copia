@@ -1,0 +1,43 @@
+main {}
+
+.section-imgs {
+  margin: 3rem;
+  display: flex;
+}
+
+
+.img-p {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-p img {
+  padding: 1rem;
+}
+
+.wrap-imgs {
+  padding-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-g {
+  width: 23rem;
+  height: 23rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.img-g img {
+  width: 23rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+}

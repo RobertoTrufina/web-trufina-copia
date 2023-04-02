@@ -1,0 +1,84 @@
+{
+    "data": [{
+            "id": 1,
+            "name": "Trufa beijinho",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 4.5,
+            "img": "https://i.ibb.co/Gt0XBYv/beijinho.png"
+        },
+        {
+            "id": 2,
+            "name": "Trufa brigadeiro",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 5,
+            "img": "https://i.ibb.co/RPCHvfV/brigadeiro.png"
+        },
+        {
+            "id": 3,
+            "name": "Trufa casadinho",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 4,
+            "img": "https://i.ibb.co/bHgq7gC/casadinho.png"
+        },
+        {
+            "id": 4,
+            "name": "Trufa crocante",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 3.5,
+            "img": "https://i.ibb.co/PCyQyHh/crocante.png"
+        },
+        {
+            "id": 5,
+            "name": "Trufa cupuaçu",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 3,
+            "img": "https://i.ibb.co/KrvHrWV/cupuacu.png"
+        },
+        {
+            "id": 6,
+            "name": "Trufa m&ms",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 2.5,
+            "img": "https://i.ibb.co/pZfcnLJ/mms.png"
+        },
+        {
+            "id": 7,
+            "name": "Trufa leite ninho",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 2,
+            "img": "https://i.ibb.co/QcSRKYH/leite-ninho.png"
+        },
+        {
+            "id": 8,
+            "name": "Trufa óreo com ninho",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 1.5,
+            "img": "https://i.ibb.co/Bg7v1kj/oreo-com-ninho.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Trufa ovomaltine",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 1,
+            "img": "https://i.ibb.co/sV91RHw/ovomaltine.png"
+        },
+        {
+            "id": 10,
+            "name": "Trufa prestígio",
+            "peso": "50g",
+            "preço": "3,40",
+            "avaliacao": 0.5,
+            "img": "https://i.ibb.co/M5WcJV5/prestigio.png"
+        }
+
+    ]
+}

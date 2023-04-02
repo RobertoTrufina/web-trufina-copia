@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from 'react-router-dom';
+import TrufasContext from '../../context/TrufasContext';
 import './style.css';
 
 
@@ -15,7 +16,11 @@ import { BsCart3, BsPersonCircle, BsSearch } from 'react-icons/bs';
 import logoTrufina from '../../imgs/logoTrufina.png';
 
 
+
+
+
 export default function Header() {
+    const { busca, setBusca } = useContext(TrufasContext)
 
     return (
 
@@ -53,12 +58,15 @@ export default function Header() {
             <div className='content-search'>
                 <Form className="d-flex BsSearch" >
                     <Form.Control
-                        type="search"
+                        type="text"
                         placeholder="Pesquisar"
                         className="me-1"
                         aria-label="Search"
-                        style={{ boxShadow: "0 0 0 0", width: "200px" }}
+                        style={{ boxShadow: "0 0 0 0", width: "250px", borderRadius: "30px" }}
+                        value={busca}
+                        onChange={(e) => setBusca(e.target.value)}
                     />
+
                     <Button style={{ background: "none" }}>
                         <BsSearch style={{ color: "#fff", fontSize: "20px" }} />
                     </Button>
