@@ -79,9 +79,11 @@ export default function Header() {
                             <span>Entrar</span>
                         </Button>
                     </Link>
-                    <Button style={{ background: "none" }}>
-                        <BsCart3 style={{ color: "#fff", fontSize: "22px" }} />
-                    </Button>
+                    <Link to="/checkout">
+                        <Button style={{ background: "none" }}>
+                            <BsCart3 style={{ color: "#fff", fontSize: "22px" }} />
+                        </Button>
+                    </Link>
 
                 </div>
             </div>

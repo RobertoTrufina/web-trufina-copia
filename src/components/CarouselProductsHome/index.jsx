@@ -1,11 +1,8 @@
 import React from 'react';
 import './style.css';
-
 import { BsCart, BsHeart, BsStar, BsStarFill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
-
 import trufaItem from '../../trufas.json';
-
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
